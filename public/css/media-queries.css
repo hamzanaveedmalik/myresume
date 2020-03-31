@@ -29,12 +29,16 @@
    ------------------------------------------------------------------ */
    header .banner { padding-bottom: 12px; }
    header .banner-text h1 {
-      font: 78px/1.1em 'Source Sans Pro', sans-serif;
-      font-weight: 900;
-      letter-spacing: -1px;      
+      font: 78px/1.1em 'DM Serif Display', sans-serif;
+      color: #1a27e0;
+      font-weight: 900;   
+      letter-spacing: -0.025em;
+      line-height: 1.75em;       
    }
    header .banner-text h3 {
       font: 17px/1.9em 'Source Sans Pro', sans-serif;
+      font-weight: 300;
+      color: rgb(87, 87, 87);
       width: 80%;
    }
    header .banner-text hr {
@@ -102,6 +106,7 @@
    -------------------------------------------------------------------- */
    #nav-wrap {
       font: 12px 'opensans-bold', sans-serif;
+      font-weight: 900;
       background: transparent !important;
       letter-spacing: 1.5px;  
       width: auto;
@@ -352,12 +357,13 @@
    -------------------------------------------------------------------- */
    header .banner { padding-top: 24px; }
    header .banner-text h1 {
-      font: 40px/1.1em 'Source Sans Pro', sans-serif;  
+      font: 30px/1.1em 'Roboto Condensed', sans-serif;  
       font-weight: 900;    
+      color:rgb(87, 87, 87) ;
       margin: 0 auto 24px auto;
    }
    header .banner-text h3 {
-      font: 14px/1.9em 'Source Sans Pro', sans-serif;
+      font: 14px/1.9em 'Abel', sans-serif;
       width: 90%;
    }
   
