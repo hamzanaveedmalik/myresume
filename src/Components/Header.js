@@ -28,12 +28,11 @@ class Header extends Component {
                   <h1 className="responsive-headline fadeIn  "> {name}</h1>
                   <h3 className="  fadeIn delay-3s">I'm a {city} based <span>{occupation}</span>. {description}.</h3>
                   <hr />
-                  <ul className="social  fadeIn delay-4s">
+                  <ul className="social ">
                      {networks}
                   </ul>
                </div>
             </div>
-
             <p className="scrolldown  fadeIn delay-5s">
                <a className="smoothscroll" href=""><i className="fa fa-heart"></i></a>
             </p>

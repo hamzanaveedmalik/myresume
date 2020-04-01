@@ -3,6 +3,14 @@ import ReactGA from 'react-ga';
 import $ from 'jquery';
 import './App.css';
 import Header from './Components/Header';
+import Covid from './Components/Covid19'
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Link
+} from "react-router-dom";
+
 
 
 class App extends Component {
@@ -40,9 +48,16 @@ class App extends Component {
 
   render() {
     return (
-      <div className="App">
-        <Header data={this.state.resumeData.main} />
+      <div class="main">
+        <Router>
+          <Route exact path="/">
+            <Header data={this.state.resumeData.main} />
+          </Route>
+          <Route path="/covid19">
+            <Covid />
+          </Route>
 
+        </Router >
       </div>
     );
   }

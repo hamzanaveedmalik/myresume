@@ -22,7 +22,7 @@
 /* a. General Styles
 /* ------------------------------------------------------------------ */
 
-body { background: #0f0f0f; }
+body { background: #FFF0E5; }
 
 /* ------------------------------------------------------------------ */
 /* b. Header Styles
@@ -33,7 +33,6 @@ header {
    height: 800px;
    min-height: 500px;
    width: 100%;
-   background: #161415 url(../images/background.png) no-repeat top center;
    background-size: cover !important;
 	-webkit-background-size: cover !important;
    text-align: center;
@@ -58,21 +57,18 @@ header .banner {
 
 header .banner-text { width: 100%; }
 header .banner-text h1 {
-   font: 90px/1.1em 'Source Sans Pro', sans-serif;
+   font-family: 'Playfair Display', serif;
    font-weight: 900;
-   color: #00a8ff;
+   color: #2a2d2e;
    letter-spacing: -0.025em;
    line-height: 1.75em;   
    margin: 0 auto 18px auto;
    animation-duration: 2s;
 
-
-
 }
 
 header .banner-text h1:hover {
-  color: #FC427B;
-
+  color: #800D33;
 
 }
 header .banner-text h3 {
@@ -105,7 +101,7 @@ header .social li {
    padding: 0;
 }
 header .social li a { color: #302f2f; }
-header .social li a:hover { color: #11ABB0; }
+header .social li a:hover { color:  rgba(169, 83, 30, 0.906); }
 
 /* scrolldown link */
 header .scrolldown a {
@@ -128,6 +124,10 @@ header .scrolldown a {
    transition: all .3s ease-in-out;
 }
 header .scrolldown a:hover { color: #11ABB0; }
+
+.covid-lists{
+   display: list-item;
+}
 
 /* primary navigation
 --------------------------------------------------------------------- */
