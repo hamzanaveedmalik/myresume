@@ -38,11 +38,9 @@ class Header extends Component {
             <ul className='social '>{networks}</ul>
           </div>
         </div>
-        <p className='scrolldown  fadeIn delay-5s'>
-          <a className='smoothscroll'>
-            <i className='fa fa-heart'></i>
-          </a>
-        </p>
+        {/* <p className='scrolldown  fadeIn delay-5s'>
+          <i className='fa fa-heart'></i>
+        </p> */}
       </header>
     );
   }
