@@ -117,13 +117,6 @@
   /* mobile navigation
    -------------------------------------------------------------------- */
   #nameurdu {
-    color: #800d33;
-    font-family: 'Mirza', cursive;
-    font-size: 50px !important;
-    font-weight: 400;
-  }
-
-  #name_english {
     display: none;
   }
   #nav-wrap {
