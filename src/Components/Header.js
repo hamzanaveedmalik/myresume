@@ -39,7 +39,7 @@ class Header extends Component {
           </div>
         </div>
         <p className='scrolldown  fadeIn delay-5s'>
-          <a className='smoothscroll' href=''>
+          <a className='smoothscroll'>
             <i className='fa fa-heart'></i>
           </a>
         </p>

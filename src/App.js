@@ -3,28 +3,19 @@ import ReactGA from 'react-ga';
 import $ from 'jquery';
 import './App.css';
 import Header from './Components/Header';
-import Covid from './Components/Covid19'
-import {
-  BrowserRouter as Router,
-  Switch,
-  Route,
-  Link
-} from "react-router-dom";
-
-
+import Covid from './Components/Covid19';
+import { BrowserRouter as Router, Route } from 'react-router-dom';
 
 class App extends Component {
-
   constructor(props) {
     super(props);
     this.state = {
       foo: 'bar',
-      resumeData: {}
+      resumeData: {},
     };
 
     ReactGA.initialize('UA-115168492-1');
     ReactGA.pageview(window.location.pathname);
-
   }
 
   getResumeData() {
@@ -38,7 +29,7 @@ class App extends Component {
       error: function (xhr, status, err) {
         console.log(err);
         alert(err);
-      }
+      },
     });
   }
 
@@ -48,16 +39,15 @@ class App extends Component {
 
   render() {
     return (
-      <div class="main">
+      <div class='main'>
         <Router>
-          <Route exact path="/">
+          <Route exact path='/'>
             <Header data={this.state.resumeData.main} />
           </Route>
-          <Route path="/covid19">
+          <Route path='/covid19'>
             <Covid />
           </Route>
-
-        </Router >
+        </Router>
       </div>
     );
   }
