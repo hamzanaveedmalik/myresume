@@ -23,7 +23,8 @@
 /* ------------------------------------------------------------------ */
 
 body {
-  background: #fff0e5;
+  background: #000000;
+  opacity: 88%;
 }
 
 /* ------------------------------------------------------------------ */
@@ -61,28 +62,64 @@ header .banner-text {
   width: 100%;
 }
 header .banner-text h1 {
-  font-family: 'Playfair Display', serif;
-  font-weight: 900;
-  color: #2a2d2e;
+  /* font-family: 'Playfair Display', serif; */
+  font-family: 'Saira', sans-serif;
+  font-weight: thin;
+  font-size: 50px;
+  color: #ffffff;
   letter-spacing: -0.025em;
   line-height: 1.75em;
   margin: 0 auto 18px auto;
   animation-duration: 2s;
+  text-transform: uppercase;
+  margin-bottom: 10%;
+  cursor: pointer;
+
+ -webkit-transition: color 0.3s ease-out;
+  -moz-transition: color 0.3s ease-out;
+  -o-transition: color 0.3s ease-out;
+  transition: color 0.3s ease-out;
 }
 
+header .banner-text .lastName {
+  font-weight: bold;
+
+}
+
+
+/* header .blue-rectangle {
+  height: 150px;
+  width: 47%;
+  position: absolute;
+  z-index: -1;
+  left: 24.5%;
+  bottom: 53%;
+  background-color: #0F32FF;
+} */
+
+header .blue-rectangle:hover {
+  background: #000000;
+  opacity: 88%;
+}
+
+
 header .banner-text h1:hover {
-  color: #800d33;
+  color: rgb(0, 136, 146);
+ 
 }
 header .banner-text h3 {
   font: 18px/1.9em 'Source Sans Pro', sans-serif;
   font-weight: 300;
-  color: rgb(87, 87, 87);
+  color: #ffff;
   margin: 0 auto;
   width: 70%;
 }
 header .banner-text h3 span,
 header .banner-text h3 a {
-  color: #302f2f;
+  color: #ffff;
+  text-transform: capitalize;
+  margin-bottom: 40%;
+
 }
 header .banner-text hr {
   width: 60%;
@@ -96,17 +133,18 @@ header .social {
   margin: 24px 0;
   padding: 0;
   font-size: 30px;
+  margin-top: 10%;
 }
 header .social li {
   display: inline-block;
-  margin: 0 15px;
+  margin: 0 40px;
   padding: 0;
 }
 header .social li a {
   color: #302f2f;
 }
 header .social li a:hover {
-  color: rgba(169, 83, 30, 0.906);
+  color: rgb(11, 252, 240);
 }
 
 /* scrolldown link */

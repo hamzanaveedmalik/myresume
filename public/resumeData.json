@@ -1,8 +1,9 @@
 {
   "main": {
     "name": "حمزہ نوید",
-    "english": "Hamza Naveed",
-    "occupation": "Front End Engineer",
+    "firstName": "Hamza",
+    "lastName": "Naveed",
+    "occupation": "Software Engineer",
     "description": "I bring ideas to life with design and code. Always up for a good conversation over tea or chai latte! ",
     "image": "hamza.png",
     "bio": "I specialize in Front End Engineering. I’m passionate about what I do, and I love to help people. Knowing that a piece of code that I wrote has helped a patient to get treatment; Gives me an utmost sense of satisfaction. Also, I love brilliant colleagues I'm usually surrounded with. Nothing is more fulfilling than being part of a team with similar interests, and an organization that values its employees.",
